@@ -1,0 +1,102 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img-fluid{
+  max-width: 250px;
+  display: block;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #2273c2;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #FFF;
+}
+
+.bg-primary{
+  background-color:  #2273c2;
+}
+
+body {
+  background-color: #FFC312;
+}
+
+h3{
+    margin: 2px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+}
+
+.pokemon {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: white; 
+}
+
+.pokemon .pokemon-picture {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  border: 4px solid #FFC312;
+  margin: 15px;
+}
+
+.pokemon .pokemon-picture img {
+  width: 100%;
+  height: auto;
+}
+
+
+.pokemon .pokemon-info {
+  width: 100%;
+  height: auto;
+  background-color: #0c73c2;
+  flex: 2;
+}
+
+.pokemon-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+
+.pokemon-info .name,
+.pokemon-info .number,
+.pokemon-info .weight,
+.pokemon-info .height  {
+  width: 100%;
+  font-size: 1.3em;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+
+.pokemon-info .name {
+  font-size: 2.2em;
+  color: #FFC312; 
+  font-weight: bold;
+  text-transform: capitalize;
+}

@@ -1,0 +1,71 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background: #cedfe7;
+    background: linear-gradient(to right, rgb(167, 203, 209), rgb(238, 221, 123));
+	margin: 0;
+}
+
+.container {
+	padding: 35px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 45px;
+    color: #000;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+.pokedex {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(190px, 2fr));
+	grid-gap: 20px;
+}
+
+.card:hover {
+	animation: bounce 0.5s linear;
+}
+
+.card {
+	padding: 15px;
+	color: #222;
+	text-align: center;
+	border-radius: 20px;
+	position: relative;
+}
+
+.card-title {
+	text-transform: capitalize;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-weight: normal;
+	position: relative;
+}
+
+.card-subtitle {
+	margin-top: 4px;
+	color: rgb(85, 85, 85);
+	position: relative;
+}
+
+.card-image {
+    margin: auto;
+	height: 150px;
+    width: 150px;
+}
+
+@keyframes bounce {
+	20% {
+			transform: translateY(-6px);
+	}
+
+}
